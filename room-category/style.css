@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans+Condensed:wght@300&family=Raleway:ital,wght@0,200;1,300&family=Roboto+Slab:wght@300&family=Stalemate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  body{
+    background-color:black;
+  }
+ 
+
+
+
+  #heading{
+ 
+
+    position: sticky;
+    top:0%
+  border-bottom: 5px solid rgb(235, 176, 103);
+  background-color:black;
+  
+  }
+   
+    nav .logo{
+      color:rgb(233, 187, 131);
+      font-size: 33px;
+      font-weight: bold;
+      font-family: 'Raleway', sans-serif;
+      line-height: 70px;
+      padding-left: 110px;
+      
+    }
+    nav{
+      height: 95px;
+      background-color:black;
+   
+      text-align: left;
+      background-color: rgba(240, 248, 255, 0);
+      -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  position: sticky;
+  top:0%
+    
+     
+      
+    }
+  
+    nav ul li{
+      display: inline-block;
+     padding: 1% 0 ;
+    }
+    nav ul li a{
+     /* color:rgb(233, 187, 131);*/
+     color:white;
+      display: block;
+      padding: 0 15px;
+      line-height: 70px;
+      font-size: 40px;
+      font-family: 'Cinzel', serif;
+      background: #00000000;
+      transition: .5s;
+    }
+
+    nav ul li a:hover{
+        color:rgb(233, 187, 131);
+    }
+   
+   
+   
+   
+ 
+    #heading .logo{
+      font-family: 'Stalemate', cursive;
+      width: 8%;
+      height: 10%;
+      margin-left: 20%;
+      align-items: center;
+      position: absolute;
+      top: 1%;
+      right: 2%;
+    }
+  
+    #heading .main .main-img img{
+      width: 25%;
+      height: 40%;
+     
+    }
+  
+    #heading .main .main-img{
+      width: 100%;
+      background-color: rgba(233, 187, 131, 0.247);
+      height:90vh;
+     
+    }
+  
+
+.main{
+    padding: 0;
+    margin: 0;
+    
+   background-image: url(https://images.freeimages.com/images/large-previews/fd1/bedroom-bliss-1531454.jpg); 
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+ 
+}
+
+.main h1  {
+   text-align: center;
+   padding-top:  10% ;
+   font-size:8em;
+   font-family: 'Stalemate', cursive;
+   color: white;
+}  
+
+.main h6  {
+  text-align: center;
+  font-size:1.5em;
+  font-weight: 100;
+  color:black;
+  font-family: 'Cinzel', serif;
+} 
+
+.main h5{
+  color: white;
+  font-family: sans-serif;
+  text-align: left;
+  padding-top: 13% ;
+  padding-left: 2%;
+}
+
+
+#heading .main .main-img img{
+    width: 25%;
+    height: 40%;
+    
+   
+  }
+
+  #heading .main .main-img{
+    width: 100%;
+    background-color: rgba(233, 187, 131, 0.247);
+    height:90vh;
+   
+  }
+
+
+
+
+ 
+
+
+  
+.view{
+    background-image: url(https://images.freeimages.com/images/large-previews/b09/chandelier-3-1535883.jpg);
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  
+    
+    
+    background-size: cover;
+    background-position: center;
+    
+    background-attachment: fixed;
+  }
+  
+  
+  .view .row{
+   text-align: center;
+  
+  padding: 2% 0%;
+  margin: 0 0.5%;
+   text-align: center;
+   border: none;
+  background-color:rgba(0, 0, 0, 0.562);
+  
+  }
+
+
+  
+.card{
+    color: white;
+    font-family: 'Cinzel', serif;
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+  }
+
+  .card .card-body p{
+      font-size:0.9em;
+      color: antiquewhite;
+  }
+  
+  
+  
+  
+  .view .row  .col-lg-4{
+    border: none;
+    background-color:rgba(0, 0, 0, 0);
+    padding-left: 5%;
+    
+    
+    
+    
+    }
+  
+  .card .card-body{
+    background-color:rgb(0, 0, 0);
+    border: none;
+  }
+
+
+
+
+  .rooms-details{
+      width: 100%;
+      height: auto;
+      background-color:black;
+      color: white;
+      font-family: 'Cinzel', serif;
+      
+      padding: 0 2%;
+  }
+
+  .rooms-details span{
+    color: rgb(235, 176, 103);
+   
+  
+}
+
+.rooms-details h2{
+    text-align: center;
+    padding: 2% 0 ;
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+}
+
+
+
+
+.gallery{
+    background-color:rgb(235, 176, 103);
+    padding: 5% 0;
+    text-align:center;
+    color: white;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .gallery .row .zoom1 , .zoom2 , .zoom3 , .zoom4 , .zoom5 , .zoom6 , .zoom7 , .zoom8 {
+    padding: 50px;
+   
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 2% 0;
+    z-index: 0;
+  
+  }
+  
+  .zoom1:hover {
+    transform: scale(1.5); 
+    
+  }
+  .zoom2:hover {
+    transform: scale(1.5); 
+    
+  }
+  .zoom3:hover {
+    transform: scale(1.5); 
+    
+  }
+  .zoom4:hover {
+    transform: scale(1.5); 
+    
+  }
+  .zoom5:hover {
+    transform: scale(1.5); 
+    
+  }
+  .zoom6:hover {
+    transform: scale(1.5); 
+    
+  }
+  .zoom7:hover {
+    transform: scale(1.5); 
+    
+  }
+  .zoom8:hover {
+    transform: scale(1.5); 
+    
+  }
+  
+  
+  .zoom1{
+    background-image: url(https://images.freeimages.com/images/small-previews/345/colonial-hotel-1442487.jpg);
+  }
+  .zoom2{
+    background-image: url(https://images.freeimages.com/images/small-previews/2df/hotel-1500509.jpg);
+  }
+  
+  .zoom3{
+    background-image: url(https://images.freeimages.com/images/small-previews/44f/life-in-hotels-1187794.jpg);
+  }
+  
+  .zoom4{
+    background-image: url(https://images.freeimages.com/images/small-previews/21c/chandelier-brittania-hotel-m-1536999.jpg);
+  }
+  
+  .zoom5{
+    background-image: url(https://images.freeimages.com/images/small-previews/511/catussaba-hotel-1-1458949.jpg);
+  }
+  
+  .zoom6{
+    background-image: url(https://images.freeimages.com/images/small-previews/f31/hall-1226283.jpg);
+  }
+  
+  .zoom7{
+    background-image: url(https://images.freeimages.com/images/small-previews/fdb/uncertain-reflection-1535783.jpg);
+  }
+  .zoom8{
+    background-image: url(https://images.freeimages.com/images/small-previews/042/holiday-1179666.jpg);
+  }
+  
+  
+  
+
+  .end{
+    background-color:black;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    padding-top: 3%;
+  
+  }
+  
+  .end img{
+    width: 20%;
+    height: 70%;
+  }
+  
+  .about{
+    background-color:black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: rgb(235, 176, 103);
+  
+  }
+  
+  .about h1{
+    font-size:1.5em;
+    text-align: center;
+  }
+  
+  
+  .about h6 ,p{
+    padding: 2%;
+     /*color: rgb(189, 189, 189);*/
+     color:white;
+     
+  }
+  
+  hr{
+    border: solid white 1px;
+    border-bottom: none;
+    background-color: rgb(235, 176, 103);
+  
+   
+  }
+
+
+
+  @media screen and (max-width:600px){
+
+
+    nav ul li a{
+       
+         line-height: 30px;
+         font-size: 25px;
+         
+       }
+
+
+
+
+
+       .zoom1:hover {
+        transform: scale(0); 
+        
+      }
+      .zoom2:hover {
+        transform: scale(0); 
+        
+      }
+      .zoom3:hover {
+        transform: scale(0); 
+        
+      }
+      .zoom4:hover {
+        transform: scale(0); 
+        
+      }
+      .zoom5:hover {
+        transform: scale(0); 
+        
+      }
+      .zoom6:hover {
+        transform: scale(0); 
+        
+      }
+      .zoom7:hover {
+        transform: scale(0); 
+        
+      }
+      .zoom8:hover {
+        transform: scale(0); 
+        
+      }
+
+
+  }
+  
+  
+  
+    
+
+
+
+  
+ 
